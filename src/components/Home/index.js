@@ -46,7 +46,7 @@ class Home extends Component {
 
   renderLoader = () => (
     <div data-testid="loader" className="loader-container">
-      <Loader type="Oval" color="#ffffff" height={50} />
+      <Loader data-testid="loader" type="Oval" color="#ffffff" height={50} />
     </div>
   )
 
@@ -65,7 +65,7 @@ class Home extends Component {
             <h1 className="ipl-dashboard-heading">IPL Dashboard</h1>
           </div>
           <div data-testid="loader">
-          {isLoading ? this.renderLoader() : this.renderTeamsList()}
+            {isLoading ? this.renderLoader() : this.renderTeamsList()}
           </div>
         </div>
       </div>

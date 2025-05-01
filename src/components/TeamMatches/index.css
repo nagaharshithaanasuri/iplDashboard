@@ -66,3 +66,15 @@
     margin-top: 32px;
   }
 }
+.Lbtn {
+  height: 40px;
+  width: 80px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+  background:      #cc3f47;
+ margin: 50px;
+  color: #fff;
+}
